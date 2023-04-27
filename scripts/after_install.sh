@@ -5,4 +5,4 @@ echo 'cd /home/ubuntu/githubactions-codedeploy-ec2' >> /home/ubuntu/githubaction
 cd /home/ubuntu/githubactions-codedeploy-ec2 >> /home/ubuntu/githubactions-codedeploy-ec2/deploy.log
 
 echo 'npm install' >> /home/ubuntu/githubactions-codedeploy-ec2/deploy.log 
-npm install >> /home/ubuntu/githubactions-codedeploy-ec2/deploy.log
+sudo npm install >> /home/ubuntu/githubactions-codedeploy-ec2/deploy.log
