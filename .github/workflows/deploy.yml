@@ -23,7 +23,7 @@ jobs:
       id: deploy
       run: |
         aws deploy create-deployment \
-        --application-name sudip-27apr-application \
-        --deployment-group-name sudip-27apr-deployment-group \
+        --application-name sudip-27apr-app \
+        --deployment-group-name sudip-27apr-deploy-group \
         --deployment-config-name CodeDeployDefault.OneAtATime \
         --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
